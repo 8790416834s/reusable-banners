@@ -2,7 +2,7 @@
 import './index.css'
 
 const BannerCardItem = props => {
-  const {bannerCard} = props
+  const {bannerCard, key} = props
   const {headerText, className, description} = bannerCard
 
   return (
